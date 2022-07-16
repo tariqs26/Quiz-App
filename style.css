@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600&display=swap");
+
+body {
+  display: flex;
+  margin: unset;
+  padding: unset;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: "Rubik", sans-serif;
+  background: linear-gradient(90deg, #65d4fb 0%, #79bbc8 100%);
+}
+
+.quiz {
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  overflow: hidden;
+}
+
+li {
+  list-style: none;
+  margin: 1em 0;
+  display: flex;
+  align-items: center;
+}
+
+input,
+label {
+  cursor: pointer;
+}
+
+.container {
+  padding: 2rem;
+}
+
+ul {
+  padding: 0;
+}
+
+.answer {
+  margin-left: 0.2em;
+}
+
+h2 {
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+input {
+  appearance: none;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  border: 2px solid rgb(135, 135, 144);
+  transition: 0.2s all linear;
+  position: relative;
+  top: -1px;
+}
+input:checked {
+  background-color: hsl(240, 100%, 55%);
+}
+
+button {
+  border: none;
+  overflow: hidden;
+  background-color: hsl(240, 100%, 55%);
+  color: white;
+  padding: 0.5em 0em;
+  font-size: 1.3rem;
+}
+
+button:hover {
+  background-color: hsl(240, 100%, 40%);
+  cursor: pointer;
+}

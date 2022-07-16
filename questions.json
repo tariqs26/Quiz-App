@@ -1,0 +1,50 @@
+[
+    {
+        "question": "What is the name of the main character in the movie 'The Matrix'?",
+        "a" : "Neo",
+        "b" : "Trinity",
+        "c" : "Agent Smith",
+        "d" : "Tony Stark",
+        "answer" : "c"
+    },
+    {
+        "question": "when did the second world war end?",
+        "a" : "1939",
+        "b" : "1945",
+        "c" : "1944",
+        "d" : "1942",
+        "answer" : "b"
+    },
+    {
+        "question": "what is the top speed of the Mclaren f1?",
+        "a" : "250km/h",
+        "b" : "300km/h",
+        "c" : "350km/h",
+        "d" : "400km/h",
+        "answer" : "c"
+    },
+    {
+        "question": "when was the first computer introduced to the world?",
+        "a" : "1948",
+        "b" : "1949",
+        "c" : "1950",
+        "d" : "1951",
+        "answer" : "a"
+    },
+    {
+        "question":"who was the inventor of the telephone?",
+        "a" : "Alexander Graham Bell",
+        "b" : "Thomas Edison",
+        "c" : "Nikola Tesla",
+        "d" : "Isaac Newton",
+        "answer" : "a"
+    },
+    {
+        "question":"who is the founder of the Facebook?",
+        "a" : "Mark Zuckerberg",
+        "b" : "Bill Gates",
+        "c" : "Steve Jobs",
+        "d" : "Elon Musk",
+        "answer" : "a" 
+    }
+]
